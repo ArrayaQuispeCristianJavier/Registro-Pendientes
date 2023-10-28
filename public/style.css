@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(233, 187, 119); /*fondo*/
+    color:rgb(58, 42, 19);/*letra de la lista*/
+ text-shadow: 0.5px 0.5px #000;/*contorno de letras*/
+    text-align: center;/*alineacion del texto*/
+    font-style: oblique;/*fuente texto*/
+}
+h1{
+    color:rgb(151, 95, 21) ;/*color de "Lista de Pendientes"*/
+}
+label{
+    color: rgb(175, 128, 27);/*color "escribir algun pendiente"*/
+}
+
+button{
+    background-color: rgb(218, 168, 104);/*fondo boton*/
+    color: rgb(116, 86, 48);/*color de la letra*/
+    font-style:italic;/*fuente boton*/
+}
+input{
+    background-color: #ecdfc1;/*color input*/
+}
