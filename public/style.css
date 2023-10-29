@@ -1,22 +1,63 @@
-body{
-    background-color: rgb(233, 187, 119); /*fondo*/
-    color:rgb(58, 42, 19);/*letra de la lista*/
- text-shadow: 0.5px 0.5px #000;/*contorno de letras*/
-    text-align: center;/*alineacion del texto*/
-    font-style: oblique;/*fuente texto*/
-}
-h1{
-    color:rgb(151, 95, 21) ;/*color de "Lista de Pendientes"*/
-}
-label{
-    color: rgb(175, 128, 27);/*color "escribir algun pendiente"*/
+body {
+    /*fondo*/
+    background-color: #E1C78F;
+    /*letra de la lista*/
+    color: rgb(58, 42, 19);
+    /*alineacion del texto*/
+    text-align: center;
+    /*fuente texto*/
+   
 }
 
-button{
-    background-color: rgb(218, 168, 104);/*fondo boton*/
-    color: rgb(116, 86, 48);/*color de la letra*/
-    font-style:italic;/*fuente boton*/
+h1 {
+    color: #FAE7C9;
+    /*color de "Lista de Pendientes"*/
+    font-size: 70px;
+    font-style: italic;
+    border-radius: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #739072;
 }
-input{
-    background-color: #ecdfc1;/*color input*/
+
+label {
+    color: #b65206;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    /*color "escribir algun pendiente"*/
+    font-weight: bolder;
+}
+
+button {
+    margin-left: 50px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7e9c6e; 
+    color: #FFEECC;  
+    padding: 5px 25px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 10px;
+    border-color: #739072;
+}
+
+input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    border-color: #F9E0BB;
+    background-color: #F2ECBE;  
+    color: #99B080;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 200px;
+    margin-left: 400px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #CD5C08;
+    font-family: monospace;
 }
