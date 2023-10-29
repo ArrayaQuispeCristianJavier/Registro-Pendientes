@@ -33,7 +33,7 @@ function ListaDeNotas() {
         <>
             <h1>Lista de Pendientes</h1>
             <label>Escribe algun pendiente</label><br></br>
-            <input type="text" onChange={e => setNewNota(e.target.value)}></input>
+            <input type="text" onChange={e => setNewNota(e.target.value)}></input><br></br> 
             <button type="button" onClick={agregar}>Guardar pendiente</button>
             <ul>
             {pendiente.map(item => <li key={item}>{item}<button onClick={() => eliminar(item)}>eliminar</button></li>)}
