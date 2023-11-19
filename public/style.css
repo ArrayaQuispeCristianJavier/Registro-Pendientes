@@ -61,3 +61,12 @@ ul {
     color: #CD5C08;
     font-family: monospace;
 }
+/* Estilo para el título de la nota */
+.titulo-nota {
+    font-size: 18px; /* Tamaño de fuente más grande para el título */
+  }
+  
+  /* Estilo para la descripción de la nota */
+  .descripcion-nota {
+    font-size: 14px; /* Tamaño de fuente más pequeño para la descripción */
+  }
